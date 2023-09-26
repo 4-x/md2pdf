@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+@page {
+  size: auto;
+  margin: 10mm 10mm 10mm 10mm;
+}
+
+@media print {
+  header {
+    position: fixed;
+    top: 0;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    break-after: avoid-page;
+  }
+
+  section {
+    break-inside: avoid-page;
+  }
+}
