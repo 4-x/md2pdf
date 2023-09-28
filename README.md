@@ -2,6 +2,10 @@
 
 This Node.js application allows you to convert a Markdown file into a PDF document with customizable styling. It uses the `markdown-it` library for Markdown parsing, `puppeteer` for PDF generation, and custom markers for creating sections in your Markdown content.
 
+## Example
+
+See modified implementation in web app [here](https://md2pdf.glitch.me).
+
 ## Prerequisites
 
 Before you begin, make sure you have the following installed on your system:
